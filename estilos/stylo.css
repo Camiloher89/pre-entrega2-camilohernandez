@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    font: 300 20px/1.7;
+    font-family: 'Peralta', cursive;
+}
+
+/* --------------------------------- cabeza --------------------------------- */
+.cabeza p {
+    font-size: 50px;
+    color: #dce6ea;
+    text-transform: uppercase;
+
+}
+
+.cabeza {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.cabeza {
+    height: 200px;
+    background: url(/imagenesfutbol/images.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7F8C8D;
+    height: 45px;
+
+}
+
+.navbar a {
+    color: #ECF0F1;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* --------------------------------- cuerpo --------------------------------- */
+.titulo {
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.content-nosotros {
+
+    background-color: #BDC3C7;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+
+
+}
+
+.texto {
+
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 55px;
+    line-height: 120px;
+    font-weight: 500px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 25px;
+    color: #090909;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+.central {
+    background-color: #ECF0F1;
+    margin-top: 0;
+
+}
+
+
+.tres-premios {
+    float: center;
+    margin: 80px 25%
+}
+
+.tres-premios p {
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+
+}
+
+
+.icon-wrap img {
+    margin: 10px;
+    height: 65px;
+    width: 65px;
+    background-color: #943126;
+    padding: 30px;
+    border-radius: 125px;
+
+    /* --------------------------------- footer --------------------------------- */
+}
+
+footer {
+    background: #2E4053;
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-text {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-text-icon {
+    float: left;
+    width: 20%;
+    padding: 4%;
+
+
+}
+
+.icon-text-text {
+    float: left;
+    width: 60%;
+    padding: 4% 4% 2% 0;
+
+}
+
+.navpie {
+    text-align: right;
+
+}
+
+.navpie a {
+    font-size: 100%;
+    color: #7F8C8D;
+
+}
+
+.icon-text-text ol li a {
+    color: #BDC3C7;
+    list-style: none;
+}
+
+.icon-text li {
+    list-style: none;
+
+}
+
+/* -------------------------------- complejo -------------------------------- */
+.comedor img {
+    height: 250px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+.comedor p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.postpartido img {
+    height: 250px;
+    width: 500px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+.postpartido p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* --------------------------- formulario contacto -------------------------- */
+
+
+.contenedor-contacto form {
+
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contenedor-contacto form .form-label {
+    display: block;
+    font-size: 25px;
+    color: #BDC3C7;
+}
+
+.contenedor-contacto form .form-imput {
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+
+}
+
+.contenedor-contacto .boton-enviar {
+    width: 100%;
+    outline: none;
+    background: #2E4053;
+    font-size: 25px;
+    border-radius: 2px;
+    padding: 15px 0;
+    cursor: pointer;
+    color: #BDC3C7;
+}
+
+/* --------------------------------- torneos -------------------------------- */
