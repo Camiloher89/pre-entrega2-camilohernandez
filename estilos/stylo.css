@@ -27,7 +27,7 @@ body {
 
 .cabeza {
     height: 200px;
-    background: url(/imagenesfutbol/images.jpg) no-repeat center top;
+    background: url(../imagenesfutbol/images.jpg) no-repeat center top;
     background-size: cover;
 }
 
